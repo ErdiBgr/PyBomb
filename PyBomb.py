@@ -30,5 +30,5 @@ try:
     	server.sendmail(your_mail, victimMail, mail) 
     	print ('Successful!')
     	winsound.Beep(100,100)
-except:
+except KeyboardInterrupt:
 	print("Unsuccessful!")
