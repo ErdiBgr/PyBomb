@@ -2,7 +2,7 @@ import smtplib
 from email.mime.text \
 import MIMEText
 import winsound
-your_mail,your_password="yourmailadress@gmail.com",'password'
+your_mail,your_password="yourmailadress@gmail.com",'yourpassword'
 figlet = """
 PPPPPP          BBBBB                      bb      
 PP   PP yy   yy BB   B   oooo  mm mm mmmm  bb      
@@ -14,7 +14,7 @@ print(figlet)
 victimMail,subject = input('Mail Adress: '),input('Subject: ')
 message = """
 *-*-*-*-*-*-*-*-*-*-*-*-*-* <br>
-Your Messages <br>
+Messages Here <br>
 *-*-*-*-*-*-*-*-*-*-*-*-*-*
 """
 mail = MIMEText(message, "html", "utf-8")
