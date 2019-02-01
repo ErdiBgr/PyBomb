@@ -3,14 +3,13 @@ from email.mime.text \
 import MIMEText
 import winsound
 your_mail,your_password="yourmailadress@gmail.com",'yourpassword'
-figlet = """
+print("""
 PPPPPP          BBBBB                      bb      
 PP   PP yy   yy BB   B   oooo  mm mm mmmm  bb      
 PPPPPP  yy   yy BBBBBB  oo  oo mmm  mm  mm bbbbbb  
 PP       yyyyyy BB   BB oo  oo mmm  mm  mm bb   bb 
 PP           yy BBBBBB   oooo  mmm  mm  mm bbbbbb  
-         yyyyy 				Created By ErdiBgr \n"""
-print(figlet)
+         yyyyy 				Created By ErdiBgr \n""")
 victimMail,subject = input('Mail Adress: '),input('Subject: ')
 message = """
 *-*-*-*-*-*-*-*-*-*-*-*-*-* <br>
